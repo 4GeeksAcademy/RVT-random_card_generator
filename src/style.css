@@ -40,5 +40,17 @@ body {
 
 }
 
+.card.heart #topSuit,
+.card.heart #bottomSuit,
+.card.diamond #topSuit,
+.card.diamond #bottomSuit {
+  color: red;
+}
 
+.card.spade #topSuit,
+.card.spade #bottomSuit,
+.card.club #topSuit,
+.card.club #bottomSuit {
+  color: black;
+}
 
