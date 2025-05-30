@@ -1,5 +1,44 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: rgb(7, 128, 7);
+body {
+    background: green;
+  box-sizing: border-box;
 }
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 120px;
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    font-size: 80px;
+}
+
+#topSuit {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+}
+
+#bottomSuit {
+    position: absolute;
+    bottom: 2px;
+    right: 20px;
+    transform: rotate(-180deg);
+}
+
+#number {
+    position: relative;
+     z-index: 1;
+    
+
+}
+
+
+
