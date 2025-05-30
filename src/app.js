@@ -42,10 +42,11 @@ window.onload = function() {
     cardElement.classList.remove("diamond", "heart", "spade", "club");
     cardElement.classList.add(suitClasses[selectedSuit])
 
+   
     }
 
   toggleCard();
-
+ 
   btn.addEventListener("click", () => {
     toggleCard();
     countdown = 10;
@@ -73,6 +74,7 @@ window.onload = function() {
     cardElement.style.height = `${height}px`;
 
   })
+
 
   console.log("Hello Rigo from the console!");
 };
